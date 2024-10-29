@@ -64,7 +64,7 @@ class TestVarasto(unittest.TestCase):
         self.assertAlmostEqual(self.varasto.saldo, 10)
 
     def test_yritetaan_antaa_negatiivinen_tilavuus(self):
-        ##negatiivinen_varasto = Varasto(-5)
+        negatiivinen_varasto = Varasto(-5)
 
 
         self.assertAlmostEqual(negatiivinen_varasto.tilavuus, 0)
